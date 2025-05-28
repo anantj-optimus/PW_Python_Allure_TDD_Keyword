@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Pytest Test",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": [
+        "tests/test_search_engine.py"  // <-- adjust to your actual test file path
+      ],
+      "justMyCode": false,
+      "console": "integratedTerminal"
+    }
+  ]
+}
