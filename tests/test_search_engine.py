@@ -7,8 +7,8 @@ from utils.keyword_engine import KeywordEngine
 from utils.excel_reader import get_test_steps_by_testcase
 from config import file_path
 
-@allure.feature("Search Functionality")
-@allure.story("Google Search Automation")
+# @allure.feature("Search Functionality")
+# @allure.story("Google Search Automation")
 @allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.parametrize("testcase_id, steps", get_test_steps_by_testcase(file_path))
 

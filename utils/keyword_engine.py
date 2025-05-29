@@ -18,3 +18,4 @@ class KeywordEngine(BasePage):
             method(test_data)
         else:
             method()
+            return method(locator_type, locator_value, test_data)
