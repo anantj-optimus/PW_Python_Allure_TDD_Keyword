@@ -3,7 +3,6 @@
 import os
 import allure
 import pytest
-from pages.google_search_page import GoogleSearchPage
 from utils.keyword_engine import KeywordEngine
 from utils.excel_reader import get_test_steps_by_testcase
 from config import file_path
