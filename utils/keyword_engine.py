@@ -35,7 +35,8 @@ class KeywordEngine:
             locator.click()
 
         elif keyword == "verifytext":
-            expect(self.page).to_have_text(test_data)
+            locator = self.page.locator(locator_value)
+            expect(locator).to_have_text(test_data)
 
         elif keyword == "verifyelement" and locator:
             expect(locator).to_be_visible()
